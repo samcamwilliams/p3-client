@@ -1,4 +1,4 @@
-# typescript-starter
+# Arg8-JS
 
 ```ts
 const arg8 = new Arg8(wallet);
