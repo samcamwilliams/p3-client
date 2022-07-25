@@ -2,7 +2,9 @@
   "name": "arg8-js",
   "version": "1.0.0",
   "description": "Arg8 Gateway SDK for Node.js and the browser",
-  "files": ["bin/**/*"],
+  "files": [
+    "bin/**/*"
+  ],
   "scripts": {
     "build": "tsc && tsc-alias",
     "format": "prettier --write .",
@@ -10,8 +12,8 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint && npm run format",
     "preversion": "npm run lint && npm run format",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "author": "",
   "devDependencies": {
