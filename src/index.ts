@@ -57,10 +57,7 @@ export default class Arg8 {
   private async createHeaders() {
     const address = await this.arweave.wallets.getAddress(this.wallet);
 
-    const rawSignature = await Blockweave.crypto.sign(
-      this.wallet,
-      stringToBuffer(address),
-    );
+    const rawSignature = await Blockweave.crypto.sign(this.wallet, stringToBuffer(address));
     const signature = Arweave.utils.bufferTob64Url(rawSignature);
     return {
       address,
