@@ -6,7 +6,9 @@
   "browser": "web/index.js",
   "types": "bin/index.d.ts",
   "files": [
-    "bin/**/*"
+    "bin",
+    "dist",
+    "web"
   ],
   "scripts": {
     "build": "tsc && tsc-alias && node build.js",

@@ -4,3 +4,4 @@ yarn.lock
 bin
 dist
 .vscode
+web
