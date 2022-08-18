@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import { JWKInterface } from 'arweave/node/lib/wallet';
 import Blockweave from 'blockweave';
 import { stringToBuffer } from 'blockweave/dist/utils/buffer';
-export default class Arg8 {
+class Arg8 {
   private wallet: JWKInterface;
   private gatewayUrl: string;
   arweave: Arweave;
@@ -65,3 +65,5 @@ export default class Arg8 {
     };
   }
 }
+
+export = Arg8;
