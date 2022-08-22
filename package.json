@@ -1,5 +1,5 @@
 {
-  "name": "p3js",
+  "name": "p3-client",
   "version": "1.0.0",
   "description": "P3 SDK for Node.js and the browser",
   "main": "bin/index.js",
