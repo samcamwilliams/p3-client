@@ -1,7 +1,8 @@
 {
-  "name": "arg8-js",
+  "name": "p3js",
   "version": "1.0.0",
-  "description": "Arg8 Gateway SDK for Node.js and the browser",
+  "description": "P3 SDK for Node.js and the browser",
+  "main": "bin/index.js",
   "files": [
     "bin/**/*"
   ],
