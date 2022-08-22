@@ -59,7 +59,7 @@ export default class P3 {
       headers: await this.createHeaders(),
     });
   }
-  
+
   private async createHeaders() {
     const address = await this.arweave.wallets.getAddress(this.wallet);
 

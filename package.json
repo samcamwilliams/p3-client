@@ -1,6 +1,6 @@
 {
   "name": "p3-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "P3 SDK for Node.js and the browser",
   "main": "bin/index.js",
   "files": [
