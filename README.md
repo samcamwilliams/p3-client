@@ -1,4 +1,4 @@
-# Arg8-JS
+# P3-JS
 
 ```ts
 const arg8 = new Arg8(wallet);
