@@ -1,19 +1,19 @@
-# P3-JS
+# p3-client
 
 ```ts
-const arg8 = new Arg8(wallet);
+const p3 = new P3(wallet);
 
-const balance = await arg8.getBalance();
+const balance = await p3.getBalance();
 console.log(await balance.text());
 
 await deposit(quantity: 10000, target: "");
 
 // "ehpRUY79EO_p0PZuNuZI2BAnVnSAC2fNgrsLyGp5JjI" contains 'Hello world'
-const data = await arg8.getTxData(
+const data = await p3.getTxData(
   'ehpRUY79EO_p0PZuNuZI2BAnVnSAC2fNgrsLyGp5JjI',
 );
 console.log(await r.text());
 
-const tx = await arg8.getTx('ehpRUY79EO_p0PZuNuZI2BAnVnSAC2fNgrsLyGp5JjI');
+const tx = await p3.getTx('ehpRUY79EO_p0PZuNuZI2BAnVnSAC2fNgrsLyGp5JjI');
 console.log(await tx.json());
 ```
