@@ -1,4 +1,8 @@
-# p3-client
+# P3 JS/TS Client
+
+This client allows you to interact with services using [P3](https://arweave.net/UoDCeYYmamvnc0mrElUxr5rMKUYRaujo9nmci206WjQ) on the permaweb.
+
+Here's how to get started:
 
 ```ts
 const p3 = new P3(wallet);
